@@ -1,0 +1,3 @@
+#!/bin/sh
+# Запасная проверка: удаляет Co-authored-by: Cursor перед финализацией коммита
+sed -i '' '/cursoragent@cursor\.com/d' "$1"
