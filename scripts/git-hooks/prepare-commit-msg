@@ -1,3 +1,0 @@
-#!/bin/sh
-# Удаляет Co-authored-by: Cursor из сообщения коммита
-sed -i '' '/cursoragent@cursor\.com/d' "$1"

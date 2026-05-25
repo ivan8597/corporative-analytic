@@ -20,8 +20,8 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/ivan8597/corporotive-clients-analytic.git
-cd corporotive-clients-analytic
+git clone https://github.com/ivan8597/corporative-analytic.git
+cd corporative-analytic
 ```
 
 **Альтернатива — скачать ZIP:**
@@ -31,7 +31,7 @@ cd corporotive-clients-analytic
 3. Распакуйте архив и перейдите в папку проекта:
 
 ```bash
-cd corporotive-clients-analytic
+cd corporative-analytic
 ```
 
 ### 2. Подготовка данных (если папка `data/` пустая)
@@ -106,20 +106,7 @@ docker compose down -v
 
 После `down -v` при следующем запуске данные PostgreSQL создаются заново из CSV.
 
-### Cursor не должен быть в contributors
 
-Если в коммитах появляется `Co-authored-by: Cursor <cursoragent@cursor.com>`:
-
-1. **Cursor → Settings → Agents → Attribution** — выключите Commit Attribution и PR Attribution.
-2. После клонирования установите git-хук:
-   ```bash
-   sh scripts/install_git_hooks.sh
-   ```
-3. Если Cursor уже в contributors — перепишите историю:
-   ```bash
-   FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --msg-filter "grep -v 'Co-authored-by: Cursor'" -- --all
-   git push --force origin main
-   ```
 
 ### Частые проблемы
 
