@@ -1,0 +1,5 @@
+id,course_id,name,order_num
+1,1,Python: основы,1
+2,1,SQL и базы данных,2
+3,1,API и интеграции,3
+4,1,DevOps: основы,4

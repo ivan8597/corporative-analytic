@@ -1,0 +1,67 @@
+id,client_id,full_name,email,role,created_at
+1,1,Иванов Алексей,user1@client1.example.com,student,2025-08-17 00:00:00
+2,1,Петрова Мария,user2@client1.example.com,student,2025-09-19 00:00:00
+3,1,Сидоров Дмитрий,user3@client1.example.com,student,2025-09-25 00:00:00
+4,1,Козлова Анна,user4@client1.example.com,student,2025-08-10 00:00:00
+5,1,Новиков Сергей,user5@client1.example.com,student,2025-09-09 00:00:00
+6,1,Морозова Елена,user6@client1.example.com,student,2025-09-11 00:00:00
+7,1,Волков Андрей,user7@client1.example.com,student,2025-09-12 00:00:00
+8,1,Соколова Ольга,user8@client1.example.com,student,2025-09-18 00:00:00
+9,1,Лебедев Никита,user9@client1.example.com,student,2025-08-10 00:00:00
+10,1,Кузнецова Татьяна,user10@client1.example.com,student,2025-09-20 00:00:00
+11,1,Попов Максим,user11@client1.example.com,student,2025-08-14 00:00:00
+12,1,Смирнова Юлия,user12@client1.example.com,student,2025-08-10 00:00:00
+13,1,Федоров Артём,user13@client1.example.com,student,2025-08-23 00:00:00
+14,1,Васильева Ксения,user14@client1.example.com,student,2025-09-21 00:00:00
+15,1,Михайлов Павел,user15@client1.example.com,student,2025-08-20 00:00:00
+16,1,Куратор клиента 1,curator1@example.com,curator,2025-07-03 00:00:00
+17,2,Николаев Роман,user17@client2.example.com,student,2025-08-30 00:00:00
+18,2,Орлова Виктория,user18@client2.example.com,student,2025-09-24 00:00:00
+19,2,Андреев Игорь,user19@client2.example.com,student,2025-09-25 00:00:00
+20,2,Захарова Алина,user20@client2.example.com,student,2025-09-21 00:00:00
+21,2,Егоров Константин,user21@client2.example.com,student,2025-09-13 00:00:00
+22,2,Романова Дарья,user22@client2.example.com,student,2025-09-12 00:00:00
+23,2,Григорьев Владислав,user23@client2.example.com,student,2025-08-25 00:00:00
+24,2,Белова Светлана,user24@client2.example.com,student,2025-08-19 00:00:00
+25,2,Комаров Олег,user25@client2.example.com,student,2025-09-25 00:00:00
+26,2,Тихонова Надежда,user26@client2.example.com,student,2025-08-22 00:00:00
+27,2,Баранов Евгений,user27@client2.example.com,student,2025-09-14 00:00:00
+28,2,Фомина Полина,user28@client2.example.com,student,2025-08-12 00:00:00
+29,2,Куратор клиента 2,curator2@example.com,curator,2025-07-03 00:00:00
+30,3,Данилов Глеб,user30@client3.example.com,student,2025-08-16 00:00:00
+31,3,Жукова Вероника,user31@client3.example.com,student,2025-08-13 00:00:00
+32,3,Семёнов Тимур,user32@client3.example.com,student,2025-08-23 00:00:00
+33,3,Макарова Людмила,user33@client3.example.com,student,2025-08-31 00:00:00
+34,3,Киселёв Арсений,user34@client3.example.com,student,2025-09-12 00:00:00
+35,3,Абрамова Екатерина,user35@client3.example.com,student,2025-08-29 00:00:00
+36,3,Медведев Стас,user36@client3.example.com,student,2025-08-20 00:00:00
+37,3,Калинина Ульяна,user37@client3.example.com,student,2025-09-09 00:00:00
+38,3,Куратор клиента 3,curator3@example.com,curator,2025-07-03 00:00:00
+39,4,Тарасов Денис,user39@client4.example.com,student,2025-08-06 00:00:00
+40,4,Борисова Карина,user40@client4.example.com,student,2025-08-02 00:00:00
+41,4,Антонов Матвей,user41@client4.example.com,student,2025-09-26 00:00:00
+42,4,Гусев Ярослав,user42@client4.example.com,student,2025-08-09 00:00:00
+43,4,Степанова Алёна,user43@client4.example.com,student,2025-08-06 00:00:00
+44,4,Крылов Руслан,user44@client4.example.com,student,2025-09-16 00:00:00
+45,4,Виноградова Марина,user45@client4.example.com,student,2025-08-13 00:00:00
+46,4,Лазарев Илья,user46@client4.example.com,student,2025-08-30 00:00:00
+47,4,Павлова Софья,user47@client4.example.com,student,2025-09-05 00:00:00
+48,4,Сорокин Георгий,user48@client4.example.com,student,2025-09-09 00:00:00
+49,4,Трофимова Валерия,user49@client4.example.com,student,2025-09-17 00:00:00
+50,4,Климов Артур,user50@client4.example.com,student,2025-09-13 00:00:00
+51,4,Рыбакова Жанна,user51@client4.example.com,student,2025-08-09 00:00:00
+52,4,Голубев Степан,user52@client4.example.com,student,2025-09-05 00:00:00
+53,4,Мельникова Инна,user53@client4.example.com,student,2025-09-20 00:00:00
+54,4,Богданов Филипп,user54@client4.example.com,student,2025-09-21 00:00:00
+55,4,Куратор клиента 4,curator4@example.com,curator,2025-07-03 00:00:00
+56,5,Ковалева Агата,user56@client5.example.com,student,2025-09-02 00:00:00
+57,5,Зайцев Лев,user57@client5.example.com,student,2025-09-20 00:00:00
+58,5,Савина Милана,user58@client5.example.com,student,2025-09-04 00:00:00
+59,5,Марков Эдуард,user59@client5.example.com,student,2025-08-03 00:00:00
+60,5,Назарова Регина,user60@client5.example.com,student,2025-09-04 00:00:00
+61,5,Осипов Тихон,user61@client5.example.com,student,2025-08-19 00:00:00
+62,5,Чернова Лариса,user62@client5.example.com,student,2025-09-10 00:00:00
+63,5,Суханов Марк,user63@client5.example.com,student,2025-08-06 00:00:00
+64,5,Яковлева Алиса,user64@client5.example.com,student,2025-09-24 00:00:00
+65,5,Иванов Алексей,user65@client5.example.com,student,2025-08-11 00:00:00
+66,5,Куратор клиента 5,curator5@example.com,curator,2025-07-03 00:00:00
