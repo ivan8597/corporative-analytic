@@ -20,11 +20,9 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/corporotive-clients-analytic.git
+git clone https://github.com/ivan8597/corporotive-clients-analytic.git
 cd corporotive-clients-analytic
 ```
-
-Замените `YOUR_USERNAME` на ваш логин GitHub или укажите URL вашего форка.
 
 **Альтернатива — скачать ZIP:**
 
@@ -216,8 +214,13 @@ git init
 git add .
 git commit -m "Corporate client analytics dashboard for IT Resume"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/corporotive-clients-analytic.git
+git remote add origin https://github.com/ivan8597/corporotive-clients-analytic.git
 git push -u origin main
 ```
 
-После push замените `YOUR_USERNAME` в README и в отчёте на реальный URL репозитория.
+Если `origin` уже существует с другим URL:
+
+```bash
+git remote set-url origin https://github.com/ivan8597/corporotive-clients-analytic.git
+git push -u origin main
+```
