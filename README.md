@@ -224,20 +224,3 @@ docker compose up -d
 ---
 
 
-
-```bash
-cd corporotive-clients-analytic
-git init
-git add .
-git commit -m "Corporate client analytics dashboard for IT Resume"
-git branch -M main
-git remote add origin https://github.com/ivan8597/corporotive-clients-analytic.git
-git push -u origin main
-```
-
-Если `origin` уже существует с другим URL:
-
-```bash
-git remote set-url origin https://github.com/ivan8597/corporotive-clients-analytic.git
-git push -u origin main
-```
